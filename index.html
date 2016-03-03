@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>Swipeable Tab</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="format-detection" content="telephone=no,email=no">
+	<!-- <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon.png">
+	<link rel="shortcut icon" href="img/favicon.png"> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="load-container">
+	<div class="load-animation br-half"></div>
+	<div class="load-text">loading</div>
+</div>
+
+<div class="nav clear-fix nav-height sd">
+	<div class="prev btn nav-height disabled" id="prevBtn"></div>
+	<div class="nav-list-container nav-height">
+		<div class="nav-list-scroller nav-height">
+			<ul class="nav-height">
+				<li class="nav-list-item nav-height current">
+					<div class="nav-height">
+						<p><i class="fa fa-google"></i><br><span>Google</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-github"></i><br><span>GitHub</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-chrome"></i><br><span>Chrome</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-apple"></i><br><span>Apple</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-linux"></i><br><span>Linux</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-html5"></i><br><span>HTML5</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-css3"></i><br><span>CSS3</span></p>
+					</div>
+				</li>
+				<li class="nav-list-item nav-height">
+					<div class="nav-height">
+						<p><i class="fa fa-laptop"></i><br><span>MacBook</span></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="next btn nav-height" id="nextBtn"></div>
+</div>
+
+
+<div class="content"><div class="step-list-scroller" poX="0">
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="google">
+			<h2>Search the world's information</h2>
+			<div class="pic"><img src="img/logo/google.png" style="width: 272px;"></div>
+			<div class="text">
+				<p>Google Inc. is an American multinational technology company specializing in Internet-related services and products. These include online advertising technologies, search, cloud computing, and software. Most of its profits are derived from AdWords, an online advertising service that places advertising near the list of search results.</p>
+				<p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a privately held company on September 4, 1998. An initial public offering followed on August 19, 2004. Its mission statement from the outset was "to organize the world's information and make it universally accessible and useful," and its unofficial slogan was "Don't be evil". In 2004, Google moved to its new headquarters in Mountain View, California, nicknamed the Googleplex. In August 2015, Google announced plans to reorganize its interests as a holding company called Alphabet Inc. When this restructuring took place on October 2, 2015, Google became Alphabet's leading subsidiary, as well as the parent for Google's Internet interests.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="github">
+			<h2>Where software is built</h2>
+			<div class="text">
+				<div style="float: left; margin: 12px 10px 0 0;">
+					<svg aria-hidden="true" width="28" height="28" role="img" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 0.4 0.07 0.55-0.17 0.55-0.38 0-0.19-0.01-0.82-0.01-1.49-2.01 0.37-2.53-0.49-2.69-0.94-0.09-0.23-0.48-0.94-0.82-1.13-0.28-0.15-0.68-0.52-0.01-0.53 0.63-0.01 1.08 0.58 1.23 0.82 0.72 1.21 1.87 0.87 2.33 0.66 0.07-0.52 0.28-0.87 0.51-1.07-1.78-0.2-3.64-0.89-3.64-3.95 0-0.87 0.31-1.59 0.82-2.15-0.08-0.2-0.36-1.02 0.08-2.12 0 0 0.67-0.21 2.2 0.82 0.64-0.18 1.32-0.27 2-0.27 0.68 0 1.36 0.09 2 0.27 1.53-1.04 2.2-0.82 2.2-0.82 0.44 1.1 0.16 1.92 0.08 2.12 0.51 0.56 0.82 1.27 0.82 2.15 0 3.07-1.87 3.75-3.65 3.95 0.29 0.25 0.54 0.73 0.54 1.48 0 1.07-0.01 1.93-0.01 2.2 0 0.21 0.15 0.46 0.55 0.38C13.71 14.53 16 11.53 16 8 16 3.58 12.42 0 8 0z"></path></svg>
+				</div>
+				<p>GitHub is a web-based Git repository hosting service. It offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool, GitHub provides a Web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.</p>
+				<p>GitHub offers both plans for private repositories and free accounts, which are usually used to host open-source software projects. As of February 2016, GitHub reports having over 12 million users and over 31 million repositories, making it the largest host of source code in the world.</p>
+				<p>The trademark mascot of GitHub is Octocat, an anthropomorphized cat with octopus limbs, done in a manga style.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="chrome">
+			<h2>Make the web faster, safer, and easier</h2>
+			<div class="pic"><img src="img/logo/chrome.png" style="width: 123px;"></div>
+			<div class="text">
+				<p>Google Chrome is a freeware web browser developed by <a href="#google">Google</a>. It used the WebKit layout engine until version 27 and with the exception of its iOS releases, from version 28 and beyond uses the WebKit fork Blink. It was first released as a beta version for Microsoft Windows on September 2, 2008, and as a stable public release on December 11, 2008.</p>
+				<p>As of December 2015, StatCounter estimates that Google Chrome has a 58% worldwide usage share of web browsers as a desktop browser. It is also the most popular browser for smartphones, and combined across all platforms at about 45%. Its success has led to Google expanding the 'Chrome' brand name on various other products such as the Chromecast.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="apple">
+			<h2>Leads the world in innovation</h2>
+			<div class="text">
+				<p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. Its hardware products include the iPhone smartphone, the iPad tablet computer, the Mac personal computer, the iPod portable media player, and the Apple Watch smartwatch. Apple's consumer software includes the OS X and iOS operating systems, the iTunes media player, the Safari web browser, and the iLife and iWork creativity and productivity suites. Its online services include the iTunes Store, the iOS App Store and Mac App Store, and iCloud.</p>
+				<p>Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne on April 1, 1976, to develop and sell personal computers. It was incorporated as Apple Computer, Inc. on January 3, 1977, and was renamed as Apple Inc. on January 9, 2007, to reflect its shifted focus toward consumer electronics. Apple (NASDAQ: AAPL) joined the Dow Jones Industrial Average on March 19, 2015.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="linux">
+			<h2>For the community, by the community</h2>
+			<div class="text">
+				<div style="float: left; margin: 10px 10px 0 0;">
+					<img src="img/logo/tux.png" style="width: 75px;">
+				</div>
+				<p>Linux is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torvalds. The Free Software Foundation uses the name GNU/Linux to describe the operating system, which has led to some controversy.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="html5">
+			<h2>HTML5 Rocks</h2>
+			<div class="text">
+				<p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It was finalized, and published, on 28 October 2014 by the World Wide Web Consortium (W3C). This is the fifth revision of the HTML standard since the inception of the World Wide Web. The previous version, HTML 4, was standardized in 1997.</p>
+				<p>...</p>
+				<p>HTML5 cannot provide animation within web pages. Additional JavaScript or <a href="#css3">CSS3</a> functionality is necessary for animating HTML elements.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="css3">
+			<h2>Cascading Style Sheets level 3</h2>
+			<div class="pic"><img src=""></div>
+			<div class="text">
+				<p>CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of long-awaited novelties, like rounded corners, shadows, gradients, transitions or animations, as well as new layouts like multi-columns, flexible box or grid layouts.</p>
+			</div>
+		</div>
+	</div></div>
+
+	<div class="step-container step-width"><div class="step">
+		<div class="detail" id="laptop">
+			<h2>MacBook Air</h2>
+			<div class="pic"><img src="img/logo/macbook.png"></div>
+			<div class="text">
+				<p>Sure, MacBook Air is unbelievably thin and light. But we also designed it to be powerful, capable, durable, and enjoyable to use. With enough battery life to get you through the day. That’s the difference between a notebook that’s simply thin and light and one that’s so much more.</p>
+				<p style="text-align: center;"><a href="#apple">Apple</a></p>
+			</div>
+		</div>
+	</div></div>
+
+</div></div>
+
+<div class="footer">
+	<div>
+		<iframe src="https://ghbtns.com/github-btn.html?user=YopheeHsin&repo=js-snippets&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+	</div>
+</div>
+
+<div id="cover"></div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/fastclick-min.js"></script>
+<script src="js/touch-0.2.14.min.js"></script>
+<script src="js/iscroll-min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

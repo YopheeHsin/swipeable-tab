@@ -171,7 +171,7 @@
 
 <div class="footer">
 	<div>
-		<iframe src="https://ghbtns.com/github-btn.html?user=YopheeHsin&repo=js-snippets&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+		<iframe src="" frameborder="0" scrolling="0" width="170px" height="20px" id="gitIframe"></iframe>
 	</div>
 </div>
 
@@ -182,5 +182,11 @@
 <script src="js/touch-0.2.14.min.js"></script>
 <script src="js/iscroll-min.js"></script>
 <script src="js/index.js"></script>
+
+<script>
+	window.onload = function() {
+		document.getElementById("gitIframe").src = "https://ghbtns.com/github-btn.html?user=YopheeHsin&repo=swipeable-tab&type=star&count=true";
+	}
+</script>
 </body>
 </html>

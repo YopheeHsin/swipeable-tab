@@ -1,15 +1,13 @@
 # Swipeable Tab
 移动端触摸滑动切换选项卡
 
-***
-
 #Demo:
 
 [Swipeable Tab](http://htmlpreview.github.io/?https://github.com/YopheeHsin/swipeable-tab/blob/master/demo.html)
 
 移动端扫码访问：
 
-<img src="https://github.com/YopheeHsin/swipeable-tab/blob/master/img/qr.png" alt="Swipeable Tab" style="width: 200px;">
+<img src="https://github.com/YopheeHsin/swipeable-tab/blob/master/img/qr.png" alt="Swipeable Tab" style="width: 200px;" width="200">
 
 
 ##Thanks

@@ -3,11 +3,11 @@
 
 #Demo:
 
-[Swipeable Tab](http://htmlpreview.github.io/?https://github.com/YopheeHsin/swipeable-tab/blob/master/demo.html)
+[Swipeable Tab](http://yopheehsin.github.io/demo/swipeable-tab/)
 
 移动端扫码访问：
 
-<img src="https://github.com/YopheeHsin/swipeable-tab/blob/master/img/qr.png" alt="Swipeable Tab" width="200">
+<img src="http://yopheehsin.github.io/demo/swipeable-tab/img/qr.png" alt="Swipeable Tab" width="200">
 
 
 ##Thanks

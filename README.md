@@ -3,7 +3,7 @@
 
 #Demo:
 
-[Swipeable Tab](http://yopheehsin.github.io/demo/swipeable-tab/)
+[Swipeable Tab](http://yopheehsin.github.io/demo/swipeable-tab/demo.html)
 
 移动端扫码访问：
 

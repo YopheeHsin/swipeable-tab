@@ -14,6 +14,7 @@
 <img src="http://yopheehsin.github.io/demo/swipeable-tab/img/qr.png" alt="Swipeable Tab" width="200">
 
 V2：
+
 <img src="http://yopheehsin.github.io/demo/swipeable-tab/img/qr-v2.png" alt="Swipeable Tab V2" width="200">
 
 

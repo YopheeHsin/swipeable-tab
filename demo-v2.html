@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>Mobile Device View - Swipeable Tab</title>
+</head>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.device {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 360px;
+	height: 640px;
+	margin: -380px 0 0 -196px;
+	border-width: 60px 16px;
+	border-style: solid;
+	border-color: #999;
+	border-radius: 36px;
+}
+.container {
+	width: 360px;
+	height: 640px;
+	overflow: hidden;
+} 
+.view {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+</style>
+<body>
+
+	<div class="device">
+		<div class="container">
+			<iframe class="view" src="index-v2.html"></iframe>
+		</div>
+	</div>
+
+</body>
+</html>
